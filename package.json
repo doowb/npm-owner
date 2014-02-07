@@ -1,0 +1,41 @@
+{
+  "name": "npm-owner",
+  "version": "0.1.0",
+  "description": "View and sync owners between GitHub and NPM for projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "contributors": [
+    "doowb",
+    "jonschlinkert"
+  ],
+  "bin": {
+    "npm-owner": "bin/npm-owner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doowb/npm-owner"
+  },
+  "keywords": [
+    "npm",
+    "owner",
+    "npm-owner",
+    "add",
+    "sync",
+    "github",
+    "contributor"
+  ],
+  "author": "Brian Woodward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doowb/npm-owner/issues"
+  },
+  "dependencies": {
+    "dirname": "~0.1.0",
+    "commander": "~2.1.0",
+    "cli-table": "~0.3.0",
+    "fs-utils": "~0.1.11",
+    "lodash": "~2.4.1"
+  }
+}
