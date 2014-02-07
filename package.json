@@ -11,7 +11,7 @@
     "jonschlinkert"
   ],
   "bin": {
-    "npm-owner": "bin/npm-owner"
+    "owners": "bin/owners.js"
   },
   "repository": {
     "type": "git",
