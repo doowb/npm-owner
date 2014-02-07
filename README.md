@@ -18,19 +18,19 @@ npm i -g npm-owner
 To list the NPM and GitHub owners:
 
 ```bash
-npm-owners ls
+owners ls
 ```
 
 ### Sync Owners
 
 ```bash
-npm-owners sync github
+owners sync github
 ```
 
 ### Add Owner
 
 ```bash
-npm-owners add doowb npm
+owners add doowb npm
 ```
 
 ## Authors
