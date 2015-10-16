@@ -7,8 +7,11 @@
     "test": "mocha -R spec"
   },
   "contributors": [
-    "doowb",
-    "jonschlinkert"
+    {
+      "name": "Brian Woodward",
+      "email": "brian.woodward@gmail.com",
+      "url": "https://github.com/doowb"
+    }
   ],
   "bin": {
     "owners": "bin/owners.js"
